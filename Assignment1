@@ -1,0 +1,33 @@
+Assignment-1:
+Write a program to count the duplicate elements in the list.
+Ex:
+
+1 2 1 4
+
+Output:1
+
+Assignment 2:
+Write a program to find second runner up of the person based on given data.
+
+Input:
+
+6
+7 8 2 4 6 8 9
+
+Output:7
+
+n=int(input ())
+l=input (). split()
+t=[]
+for i in l:
+    t. append(int(i))
+x=[]
+for i in t:
+    if i not in x:
+        x. append (i)
+x. sort(reverse=True)
+print(x[1])
+
+6
+7 8 2 4 6 8 9 
+8
